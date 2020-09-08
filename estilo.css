@@ -1,0 +1,170 @@
+
+body{
+    background-color:honeydew; 
+    margin: 0px;
+}
+header{
+    background-color: rgb(139, 207, 4);
+    color: whitesmoke;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo{
+    width: 60px;
+    position: absolute;
+    margin-left: 5%;
+}
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+    text-decoration: none;
+}
+.lado{
+    float: left;
+    padding:20px;
+}
+.lado:hover{
+    background-color: snow;
+    color: black;
+}
+
+#capa{
+    background: url(img/pexels-thiago-japyassu-1563604.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    height: 590px;
+    border-radius: 10px;
+    padding-top: 6%;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: darkgreen;    
+}
+#titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: rgba(0, 0, 0, 0.753);
+    font-weight: bold;
+}
+#site{
+    border: green 2px solid;
+    border-radius: 30px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:lawngreen;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+#site:hover{
+    background-color: yellowgreen;
+    color: white;
+}
+.titulos{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: rgb(2, 2, 32);
+}
+.nomes{
+    font-size: medium;
+    color: rgb(2, 2, 32);
+    font-family: Arial, Helvetica, sans-serif;  
+    text-align: center;
+    border-bottom: lime solid 1px;
+} 
+.texto{   
+    font-size:medium;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}  
+#desmatamento{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    padding-right: 190px;
+    padding-left: 37px;
+}
+#poluicao{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    padding-right: 190px;
+}
+#lixo{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.justificado{
+    text-align: justify;
+}
+#projeto{
+    background: whitesmoke;
+    border-radius: 20px;
+    padding-bottom: 50px;
+    padding-top: 100px;
+      
+}
+.video{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+    padding-bottom: 100px;
+    padding-top: 50px;   
+}
+#tela{
+    border: rgb(2, 2, 32) 10px solid;
+    border-radius: 10px;
+}
+.icone{
+    width: 70px;
+    
+}
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 15%;
+    text-align: justify;
+    padding-bottom: 100px;
+}
+#sobre{
+    float: left;
+    text-align: justify;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(2, 2, 32);
+    color: wheat;
+}
+.about{
+    color:wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+#um,#dois,#tres{
+    float: left;
+    width: 30%;
+    text-align: justify;
+    padding: 20px;
+}
+#green{
+    width: 100px;
+}
